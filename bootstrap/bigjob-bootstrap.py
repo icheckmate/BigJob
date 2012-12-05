@@ -10,6 +10,7 @@ virtualenv_version = "1.6.4"
 import sys
 for i in sys.path:
     print i
+print sys.version_info
 
 import base64
 import sys
