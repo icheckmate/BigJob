@@ -7,6 +7,9 @@
 # If you change the version here, change it in setup.py 
 # and docs/conf.py as well.
 virtualenv_version = "1.6.4"
+import sys
+for i in sys.path:
+    print i
 
 import base64
 import sys
